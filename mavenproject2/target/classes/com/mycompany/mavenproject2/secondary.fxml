@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: pink; -fx-border-color: white; -fx-border-width: 5px; -fx-border-style: dotted;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenproject2.SecondaryController">
+   <children>
+      <Button layoutX="36.0" layoutY="86.0" mnemonicParsing="false" onAction="#lesotho" prefHeight="25.0" prefWidth="71.0" text="Lesotho">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="36.0" layoutY="116.0" mnemonicParsing="false" onAction="#botswana" text="Botswana">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="36.0" layoutY="297.0" mnemonicParsing="false" onAction="#reset" prefHeight="25.0" prefWidth="71.0" text="Reset">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="36.0" layoutY="211.0" mnemonicParsing="false" onAction="#austria" prefHeight="25.0" prefWidth="71.0" text="Austria">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="37.0" layoutY="180.0" mnemonicParsing="false" onAction="#ghana" prefHeight="25.0" prefWidth="71.0" text="Ghana">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="36.0" layoutY="148.0" mnemonicParsing="false" onAction="#egypt" prefHeight="25.0" prefWidth="71.0" text="Egypt">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="color1" layoutX="235.0" layoutY="85.0" prefHeight="46.0" prefWidth="222.0" style="-fx-background-color: pink;" />
+      <TextField fx:id="color3" layoutX="235.0" layoutY="170.0" prefHeight="46.0" prefWidth="222.0" style="-fx-background-color: pink;" />
+      <TextField fx:id="color2" layoutX="235.0" layoutY="131.0" prefHeight="46.0" prefWidth="222.0" style="-fx-background-color: pink;" />
+      <Label alignment="CENTER" layoutX="94.0" layoutY="24.0" prefHeight="46.0" prefWidth="428.0" style="-fx-background-color: white;" text="Country Flags">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="label" alignment="CENTER" layoutX="278.0" layoutY="271.0" prefHeight="33.0" prefWidth="153.0" textFill="#151854">
+         <font>
+            <Font name="Lucida Sans Unicode" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="les1" layoutX="162.0" layoutY="103.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="les2" layoutX="162.0" layoutY="120.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="les3" layoutX="162.0" layoutY="137.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="lesName" layoutX="162.0" layoutY="164.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="bot1" layoutX="321.0" layoutY="103.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="bot2" layoutX="321.0" layoutY="120.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="bot3" layoutX="321.0" layoutY="137.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="botName" layoutX="322.0" layoutY="164.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="egy1" layoutX="471.0" layoutY="103.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="egy2" layoutX="471.0" layoutY="120.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="egy3" layoutX="471.0" layoutY="137.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="egyName" layoutX="471.0" layoutY="163.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="gha1" layoutX="238.0" layoutY="196.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="gha2" layoutX="238.0" layoutY="213.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="gha3" layoutX="238.0" layoutY="230.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="ghaName" layoutX="238.0" layoutY="259.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="aus1" layoutX="398.0" layoutY="196.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="aus2" layoutX="398.0" layoutY="213.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="aus3" layoutX="398.0" layoutY="230.0" prefHeight="17.0" prefWidth="71.0" />
+      <Label fx:id="ausName" layoutX="398.0" layoutY="259.0" prefHeight="17.0" prefWidth="71.0" />
+   </children>
+</AnchorPane>
